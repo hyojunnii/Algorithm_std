@@ -12,11 +12,9 @@ public class MultipleAplusB {
 		
 		int a, b;
 		String answer = "";
-		int cnt = 0;
-		while(cnt < rep) {
+		for(int i = 0; i < rep; i++) {
 			a = sc.nextInt();
 			b = sc.nextInt();
-			cnt++;
 			answer += a+b + "\n";
 		}
 		
