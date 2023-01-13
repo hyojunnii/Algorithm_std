@@ -6,9 +6,9 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
+//ÁÂÇ¥Á¤·Ä - x > y
 public class CoordinatesSort {
 
-	//ÁÂÇ¥Á¤·Ä - x > y
 	public static void main(String[] args) throws Exception {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

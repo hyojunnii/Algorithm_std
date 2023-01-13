@@ -30,7 +30,7 @@ public class RightTriangle {
 			}
 			sb.append("\n");
 		}
-		
+		br.close();
 		System.out.println(sb);
 	}
 	
@@ -41,5 +41,6 @@ public class RightTriangle {
 			return "wrong";
 		}
 	}
+	
 }
 
