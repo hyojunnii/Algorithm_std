@@ -48,7 +48,6 @@ public class NandM1 {
 				visit[i] = false;
 			}
 		}
-		return;
 	}
 	
 }
