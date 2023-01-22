@@ -12,7 +12,7 @@ public class Stars10 {
 		
 		arr = new char[n][n];
 		
-		star(0, 0, n, false);
+		star(0, 0, n, false); //½ÃÀÛx, ½ÃÀÛy, n, ºóÄ­¿©ºÎ
 		
 		StringBuilder sb = new StringBuilder();
 		for(int i = 0; i < n; i++) {
