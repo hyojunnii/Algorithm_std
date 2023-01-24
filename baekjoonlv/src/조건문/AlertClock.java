@@ -24,6 +24,7 @@ public class AlertClock {
 		}
 
 		System.out.println(h + " " + m);
+		sc.close();
 	}
 
 }

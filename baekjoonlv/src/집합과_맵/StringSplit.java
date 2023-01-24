@@ -21,7 +21,7 @@ public class StringSplit {
 		}
 		
 		System.out.println(set.size());
-
+		sc.close();
 	}
 
 }

@@ -42,7 +42,7 @@ public class CroatiaAlpabet {
 			.replace("s=", " ")
 			.replace("z=", " ");
 		System.out.println(str.length());
-		
+		sc.close();
 	}
 
 }

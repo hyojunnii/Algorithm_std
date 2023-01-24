@@ -20,7 +20,7 @@ public class SortInsight {
 		}
 		
 		System.out.println(Integer.parseInt(answer));
-		
+		sc.close();
 	}
 
 }

@@ -18,6 +18,7 @@ public class CompareNums {
 		} else {
 			System.out.println("==");
 		}
+		sc.close();
 	}
 
 }

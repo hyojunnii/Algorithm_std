@@ -22,7 +22,7 @@ public class PrimeFactorization {
 		}
 		
 		System.out.println(sb);
-		
+		sc.close();
 	}
 
 }

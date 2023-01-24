@@ -21,6 +21,7 @@ public class TestScore {
 		} else {
 			System.out.println("F");
 		}
+		sc.close();
 	}
 
 }

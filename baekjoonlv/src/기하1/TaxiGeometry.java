@@ -16,6 +16,7 @@ public class TaxiGeometry {
 		System.out.println(Math.pow(r, 2)*Math.PI);
 		//맨해튼거리원 넓이 = r2 * 2
 		System.out.println(2*Math.pow(r,2));
+		sc.close();
 	}
 
 }

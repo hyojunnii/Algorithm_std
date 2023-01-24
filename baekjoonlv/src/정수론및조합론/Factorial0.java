@@ -20,6 +20,7 @@ public class Factorial0 {
 		}
 		
 		System.out.println(cnt);
+		sc.close();
 	}
 	
 }

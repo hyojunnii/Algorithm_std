@@ -1,7 +1,5 @@
 package 스택큐;
 
-import java.util.Stack;
-
 public class 올바른_괄호 {
 
 	public static void main(String[] args) {

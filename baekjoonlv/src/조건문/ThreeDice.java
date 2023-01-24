@@ -24,6 +24,7 @@ public class ThreeDice {
 		}
 		
 		System.out.println(award);
+		sc.close();
 	}
 
 }

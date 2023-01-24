@@ -12,6 +12,7 @@ public class Factorial {
 		
 		int answer = factorial(n);
 		System.out.println(answer);
+		sc.close();
 	}
 	
 	public static int factorial(int n) {

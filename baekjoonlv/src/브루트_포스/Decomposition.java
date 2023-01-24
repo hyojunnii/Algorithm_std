@@ -29,6 +29,7 @@ public class Decomposition {
 		}
 		
 		System.out.println(answer);
+		sc.close();
 	}
 
 }

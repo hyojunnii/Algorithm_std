@@ -32,6 +32,7 @@ public class Fraction {
 			//È¦¼ö¸é -/+
 			System.out.println((line-th+1)+"/"+th);
 		}
+		sc.close();
 		
 //		1     1			  1/1
 //		2    3 2        1/2 2/1

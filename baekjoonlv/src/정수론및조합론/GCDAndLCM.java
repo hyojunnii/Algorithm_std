@@ -27,6 +27,7 @@ public class GCDAndLCM {
 		
 		System.out.println(b);
 		System.out.println(A * B / b);
+		sc.close();
 	}
 	
 }

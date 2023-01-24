@@ -26,6 +26,7 @@ public class DialNum {
 		}
 		
 		System.out.println(time);
+		sc.close();
 	}
 
 }

@@ -20,6 +20,7 @@ public class OvenClock {
 		int newm = (m+time)%60;
 		
 		System.out.println(newh + " " + newm);
+		sc.close();
 	}
 
 }

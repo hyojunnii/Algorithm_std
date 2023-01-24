@@ -11,6 +11,7 @@ public class BangkokYear {
 		int year = sc.nextInt();
 		
 		System.out.println(year - 543);
+		sc.close();
 	}
 
 }

@@ -19,7 +19,7 @@ public class BeeHouse {
 		}
 		
 		System.out.println(cnt);
-
+		sc.close();
 	}
 
 }

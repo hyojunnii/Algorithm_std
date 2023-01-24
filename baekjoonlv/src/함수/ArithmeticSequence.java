@@ -25,6 +25,7 @@ public class ArithmeticSequence {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		seq(n);
+		sc.close();
 	}
 	
 }

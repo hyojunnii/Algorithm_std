@@ -19,7 +19,7 @@ public class MultipleAplusB {
 		}
 		
 		System.out.println(answer);
-		
+		sc.close();
 	}
 
 }

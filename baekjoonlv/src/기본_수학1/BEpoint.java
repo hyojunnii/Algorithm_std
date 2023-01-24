@@ -26,7 +26,7 @@ public class BEpoint {
 		}
 		
 		System.out.println(cnt);
-		
+		sc.close();
 	}
 
 }

@@ -23,7 +23,7 @@ public class Receipt {
 		} else {
 			System.out.println("No");
 		}
-		
+		sc.close();
 	}
 
 }

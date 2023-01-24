@@ -13,5 +13,6 @@ public class LeapYear {
 		} else {
 			System.out.println("0");
 		}
+		sc.close();
 	}
 }

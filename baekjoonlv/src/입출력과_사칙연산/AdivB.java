@@ -12,6 +12,7 @@ public class AdivB {
 		double B = sc.nextInt();
 		
 		System.out.println(A/B);
+		sc.close();
 	}
 
 }

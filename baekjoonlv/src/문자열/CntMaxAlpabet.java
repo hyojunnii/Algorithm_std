@@ -32,6 +32,7 @@ public class CntMaxAlpabet {
 		}
 		
 		System.out.println(str);
+		sc.close();
 	}
 
 }

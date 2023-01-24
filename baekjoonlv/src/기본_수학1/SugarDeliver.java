@@ -23,6 +23,7 @@ public class SugarDeliver {
 		} else if (n % 5 == 4 || n % 5 == 2) {
 			System.out.println(n / 5 + 2);
 		}
+		sc.close();
 		
 		//*¹Ýº¹¹®..
 //		int three = 0;

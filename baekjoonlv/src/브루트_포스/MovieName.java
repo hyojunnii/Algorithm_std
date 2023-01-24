@@ -19,6 +19,7 @@ public class MovieName {
 		}
 		
 		System.out.println(num);
+		sc.close();
 	}
 
 }

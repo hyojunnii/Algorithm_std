@@ -23,7 +23,7 @@ public class Rectangle {
 		} else {
 			System.out.println(Math.min(dist, x));
 		}
-		
+		sc.close();
 	}
 
 }

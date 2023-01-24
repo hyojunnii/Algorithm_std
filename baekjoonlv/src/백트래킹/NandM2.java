@@ -22,7 +22,7 @@ public class NandM2 {
 		
 		dfs(1, 0); //시작값, 깊이
 		System.out.println(sb);
-		
+		sc.close();
 	}
 	
 	public static void dfs(int at, int dept) {

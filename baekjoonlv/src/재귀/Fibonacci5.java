@@ -12,6 +12,7 @@ public class Fibonacci5 {
 		
 		int answer = fibonacci(n);
 		System.out.println(answer);
+		sc.close();
 	}
 
 	private static int fibonacci(int n) {

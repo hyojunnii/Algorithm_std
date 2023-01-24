@@ -23,6 +23,7 @@ public class Stars10 {
 		}
 		
 		System.out.println(sb);
+		sc.close();
 	}
 	
 	static char[][] arr;

@@ -19,6 +19,7 @@ public class Multiple {
 		System.out.println(num1 * b);
 		System.out.println(num1 * c);
 		System.out.println(num1 * num2);
+		sc.close();
 	}
 
 }

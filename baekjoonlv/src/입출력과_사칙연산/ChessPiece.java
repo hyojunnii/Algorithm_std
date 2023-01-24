@@ -21,7 +21,7 @@ public class ChessPiece {
 		System.out.print(2-bishop + " ");
 		System.out.print(2-knight + " ");
 		System.out.print(8-phon);
-
+		sc.close();
 	}
 
 }

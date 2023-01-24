@@ -18,6 +18,7 @@ public class Sum {
 		answer = n*(n+1)/2;
 		
 		System.out.println(answer);
+		sc.close();
 	}
 
 }

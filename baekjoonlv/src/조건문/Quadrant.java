@@ -20,7 +20,7 @@ public class Quadrant {
 		} else {
 			System.out.println("4");
 		}
-		
+		sc.close();
 	}
 
 }
