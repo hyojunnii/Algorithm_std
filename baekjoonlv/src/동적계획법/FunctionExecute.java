@@ -5,7 +5,11 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 //신나는 함수 실행
+// 동적계획법 - 메모이제이션
 public class FunctionExecute {
+	
+	//범위 20이상 20, 0이하면 1반환
+	public static int[][][] dp = new int[21][21][21];;
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -13,18 +17,14 @@ public class FunctionExecute {
 		StringTokenizer st;
 		
 		while(true) {
-			String s = br.readLine();
-			if("-1 -1 -1".equals(s)) {
-				break;
-			}
-			
-			st = new StringTokenizer(s);
+			st = new StringTokenizer(br.readLine());
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			int c = Integer.parseInt(st.nextToken());
-			sb.append("w(" + a + ", " + b + ", " + c + " = ");
-			sb.append(w(a,b,c));
-			sb.append("\n");
+			
+			if(a == -1 && b == -1 && c == -1) break;
+			
+			sb.append("w(" + a + ", " + b + ", " + c + ") = ").append(w(a,b,c)).append("\n");
 		}
 		
 		System.out.println(sb);
@@ -39,12 +39,16 @@ public class FunctionExecute {
 		if (a > 20 || b > 20 || c > 20) {
 			return w(20, 20, 20);
 		}
+		
+		if(dp[a][b][c] != 0) {
+			return dp[a][b][c];
+		}
 
 		if (a < b && b < c) {
-		    return w(a, b, c-1) + w(a, b-1, c-1) - w(a, b-1, c);
+		    return dp[a][b][c] = w(a, b, c-1) + w(a, b-1, c-1) - w(a, b-1, c);
 		}
 		
-		return w(a-1, b, c) + w(a-1, b-1, c) + w(a-1, b, c-1) - w(a-1, b-1, c-1);
+		return dp[a][b][c] = w(a-1, b, c) + w(a-1, b-1, c) + w(a-1, b, c-1) - w(a-1, b-1, c-1);
 	}
-
+	
 }
