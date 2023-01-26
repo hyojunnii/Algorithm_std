@@ -21,7 +21,7 @@ public class RGBStreet {
 			cost[i][2] = Integer.parseInt(st.nextToken()); //B
 		}
 		
-		//전집 최솟값 각각 더하기??
+		//경우의 수 구하기
 		for(int i = 1; i < n; i++) {
 			cost[i][0] += Math.min(cost[i-1][1], cost[i-1][2]);
 			cost[i][1] += Math.min(cost[i-1][0], cost[i-1][2]);
