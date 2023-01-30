@@ -27,7 +27,6 @@ public class NandM4 {
 	}
 	
 	public static void dfs(int at, int dept) {
-		
 		if(dept == m) {
 			for(int num : arr) {
 				sb.append(num).append(" ");
