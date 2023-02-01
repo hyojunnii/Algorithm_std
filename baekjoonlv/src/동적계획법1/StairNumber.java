@@ -1,4 +1,4 @@
-package 동적계획법;
+package 동적계획법1;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,13 +16,14 @@ public class StairNumber {
 		int N = Integer.parseInt(br.readLine());
 		dp = new long[N+1][10];
 		
-		//첫자리는 무조건 한개
+		//첫자리는 경우의수 한개
 		for(int i = 1; i < 10; i++) {
 			dp[1][i] = 1;
 		}
 		
 		//두번째자리수부터 N까지
 		for(int i = 2; i <= N; i++) {
+			//현재자리값의 0~9까지 경우의수
 			for(int j = 0; j < 10; j++) {
 				//0이면 이전자리의 1자리만 가능
 				if(j == 0) dp[i][0] = dp[i-1][1] % mod;
