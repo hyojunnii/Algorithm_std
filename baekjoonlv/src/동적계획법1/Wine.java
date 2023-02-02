@@ -30,5 +30,5 @@ public class Wine {
 		System.out.println(dp[n]);
 		br.close();
 	}
-
+	
 }
