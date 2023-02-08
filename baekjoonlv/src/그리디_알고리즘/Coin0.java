@@ -32,6 +32,6 @@ public class Coin0 {
 		
 		System.out.println(cnt);
 		br.close();
-	}
+	} 
 
 }
