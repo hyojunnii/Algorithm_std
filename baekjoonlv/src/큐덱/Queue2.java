@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
 
+//ť2
 public class Queue2 {
 
 	public static void main(String[] args) throws Exception {

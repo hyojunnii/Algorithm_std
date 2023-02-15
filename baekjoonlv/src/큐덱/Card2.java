@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+//Ä«µå2
 public class Card2 {
 
 	public static void main(String[] args) throws Exception {
